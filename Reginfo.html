@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ab{
+            display:flex;
+            margin-left: 300px;
+            margin-top: 75px;
+           
+
+        }
+        .name{
+            background-color: black;
+            color: white;
+            border-top-color: transparent;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            height: 40px;
+            width: 300px;
+            margin-left: 30px;
+            margin-top: 5px;
+        }
+        .sub{
+            background-color: green;
+            color: aliceblue;
+            border-radius: 10px;
+            margin-left: 150px;
+            margin-top: 40px;
+            
+
+        }
+        input:hover{
+            background-color:lightslategray;
+        }
+        .c{
+            border-top-right-radius: 12px;
+            border-bottom-right-radius: 12px;
+            box-shadow: 5px 5px 5px 5px black;
+        }
+        .b{
+            border-top-left-radius: 12px;
+            border-bottom-left-radius: 12px;
+            box-shadow: 5px 5px 5px 5px black;
+
+        }
+        
+        
+    </style>
+
+</head>
+<body style="background-color: magenta">
+    <div class="ab" >
+        <div>
+            <img src="https://images.unsplash.com/photo-1504898770365-14faca6a7320?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBpbmslMjBzbW9rZXxlbnwwfHwwfHx8MA%3D%3D" class="b" alt=""  height="500px" width="400px">
+        </div>
+        <div style="background-color: black;height:500px;width:400px;" class="c">
+            <form action="">
+                <h2 style="color: white;" class="name">Registration info</h2>
+                <input type="text" name="txt1" id="t1" class="name" placeholder="First Name"><br>
+               <input type="text" name="txt2" id="t2" class="name" placeholder="Address"><br>
+               <input type="text" name="txt3" id="t3" class="name" placeholder="Zipcode"><br>
+               <select name="txt4" id="t4" class="name">
+                <option value="" selected disabled>state</option>
+                <option value="kerala">kerala</option>
+                <option value="karnataka">karnataka</option>
+               </select><br>
+               <input type="text" name="txt5" id="t5" class="name" placeholder="Username(6-8 characters)"><br>
+               <input type="text" name="txt6" id="t6" class="name" placeholder="Email"><br>
+            <input type="submit" name="txt7" id="t7" class="sub" >
+                
+            </form>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
