@@ -1,0 +1,32 @@
+
+.a{
+text-align: center;
+color: orange;
+}
+.b{
+
+justify-content: center; 
+display: flex;
+
+
+
+}
+.c{
+    background-color: darkmagenta;
+    color: white;
+    
+
+    
+}
+table,th,td{
+
+    border-collapse: collapse;
+    padding: 20px;
+}
+td:hover,th:hover{
+    background-color:lightslategray;
+}
+
+
+
+

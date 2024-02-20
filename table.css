@@ -1,0 +1,26 @@
+.a{
+    width: 50%;
+    
+    
+    border-collapse: collapse;
+    margin-top: 120px;
+
+    
+    
+}
+.b{
+    
+    background-color: forestgreen;
+}
+tr:nth-child(even){
+    background-color: lightblue;
+}
+th{
+    text-align: left;
+    
+
+}
+table,td,th{
+    padding: 10px;
+
+}

@@ -1,0 +1,97 @@
+.a{
+    height: 425px;
+    width: 275px;
+    background-color: teal;
+    border-radius: 5px;
+    margin-left: 450px;
+    margin-top: 125px;
+    box-shadow: 10px 10px 10px 10px black ;
+}
+.b{
+    height:50px;
+    width: 250px;
+    background-color:green ;
+    border-radius: 5px;
+    margin-left: 12.5px;
+    margin-top: 20px;
+}
+.c{
+    height: 50px;
+    width: 50px;
+    color: azure;
+    background-color: red;
+    margin-left: 12.5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    position: relative;
+    bottom: 15px;
+}
+.d{
+    height: 50px;
+    width: 50px;
+    color: azure;
+    background-color: black;
+    margin-left: 12.5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    position: relative;
+    bottom:15px ;
+
+}
+
+.e{
+    height: 50px;
+    width: 50px;
+    color: azure;
+    background-color:black;
+    margin-left: 12.5px;
+    border-radius: 5px;
+    font-size: 25px;
+    position: relative;
+    bottom: 50px;
+}
+
+.f{    
+    height: 115px;
+    width: 50px;
+    color: azure;
+    background-color:black;
+    margin-left: 12.5px;
+    padding-top: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 10px;
+
+
+}
+.g{    
+    height: 50px;
+    width: 50px;
+    color: azure;
+    background-color: rgb(22, 19, 19);
+    margin-left: 12.5px;
+   border-radius: 5px;
+    font-size: 25px;
+     position: relative;
+    bottom: 60px;
+
+}
+.h{    
+    height: 50px;
+    width: 115px;
+    color: azure;
+    background-color: rgb(12, 3, 3);
+    margin-left: 150px;
+   border-radius: 5px;
+    font-size: 25px;
+     position: relative;
+    bottom: 100px;
+
+}
+
+
+
