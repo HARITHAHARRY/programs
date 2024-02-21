@@ -1,0 +1,36 @@
+.a{
+    display: flex;
+}
+.b{
+    height:250px;
+    background-color:whitesmoke ;
+    width: 415px;
+}
+.b1{
+    background-color: white;
+    width: 415px;
+    height:250px;
+}
+.c{
+    border-radius: 2000px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.d{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.e{
+    text-align: center;
+    font-weight: bold;
+}
+.f{
+    padding-left: 170px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    border-bottom: 400px;
+}
+.b:hover,.b1:hover{
+background-color: rgb(201, 204, 207);
+}
