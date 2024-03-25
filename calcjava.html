@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="num"></h3>
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+    <button onclick="calc('add')">add</button>
+
+    <button onclick="calc('sub')">sub</button>
+    <button onclick="calc('mul')">mul</button>
+    <button onclick="calc('div')">div</button>
+
+
+    <script>
+
+
+        function calc(x)
+        {
+        let a=parseFloat( document.getElementById('num1').value)
+        console.log(a);
+        let b=parseFloat(document.getElementById('num2').value)
+        console.log(b);
+        let c
+        if(x=='add'){
+            c=a+b;
+        }
+        else if(x=='sub'){
+            c=a-b;
+        }
+        
+        else if(x=='mul'){
+            c=a*b;
+
+        }
+        else
+        {
+            c=a/b;
+        }
+        
+        console.log(c);
+        document.getElementById('num').innerHTML=c
+
+
+        }
+
+
+
+        // function calc1(){
+        // let a=parseFloat( document.getElementById('num1').value)
+        // console.log(a);
+        // let b=parseFloat(document.getElementById('num2').value)
+        // console.log(b);
+        // c=a-b;
+        // console.log(c);
+        // document.getElementById('num').innerHTML=c
+        
+
+        // }
+
+        // function calc2(){
+        // let a=parseFloat( document.getElementById('num1').value)
+        // console.log(a);
+        // let b=parseFloat(document.getElementById('num2').value)
+        // console.log(b);
+        // c=a*b;
+        // console.log(c);
+        // document.getElementById('num').innerHTML=c
+        
+
+        // }
+        // function calc3(){
+        // let a=parseFloat( document.getElementById('num1').value)
+        // console.log(a);
+        // let b=parseFloat(document.getElementById('num2').value)
+        // console.log(b);
+        // c=a/b;
+        // console.log(c);
+        // document.getElementById('num').innerHTML=c
+        
+
+        // }
+
+
+
+
+
+
+    </script>
+</body>
+</html>
